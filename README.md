@@ -4,11 +4,15 @@ This project is based on https://github.com/libsdl-org/SDL/blob/main/test/testff
 The purpose is to test the implementation of hardware decoding + 0 copy rendering using a handle.
 
 # Configuration
-1. You need to change the following defines in testffmpeg.h:
+
+1. Open test-sdl-hwnd.pro by qt creator.
+
+2. You need to change the following defines in testffmpeg.h:
 
 static const char *file = "/home/admin1/xxx/test-sdl-hwnd/testvideo/video-ios.h264";
 
-2. You may to change the following defines in test-sdl-hwnd.pro:
+3. You may to change the following defines in test-sdl-hwnd.pro:
+
 Modify the opengl dynamic library location.
 
 
